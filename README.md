@@ -333,9 +333,10 @@ jupyter notebook TP_Partie2_Fairness.ipynb
 
 ## 👤 Auteur & Contact
 
-**Yann Le Roux**  
-Étudiant en Machine Learning  
-📧 Contact : [via le repository GitHub]
+**Wilfried LEROULIER**  
+Étudiant en IA  
+📧 Contact : mistwil777 
+📧 Mail : wilfried.leroulier@ecoles-epsi.net
 
 **Note :** Ce projet est réalisé dans un cadre pédagogique. Les données sont synthétiques et ne reflètent aucune situation réelle. L'objectif est d'apprendre les techniques d'audit de fairness dans un environnement contrôlé.
 
