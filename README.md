@@ -148,7 +148,69 @@ Nous avons créé un script Python (`generate_dataset.py`) qui :
 
 ---
 
-## 🛠️ Installation & Utilisation
+## � Audit Qualité & Conformité
+
+### Document de Vérification : `VERIFICATION_TP.md`
+
+Ce document est un **outil d'audit qualité** central du projet. Il sert plusieurs objectifs :
+
+#### 🎯 Utilité pour l'Évaluation
+
+**Pour l'évaluateur :**
+- ✅ **Preuve de conformité** : Vérification systématique de chaque exigence du TP
+- ✅ **Traçabilité** : Correspondance exacte entre consignes Dataiku et implémentation Python
+- ✅ **Localisation rapide** : Numéro de cellule pour chaque point du TP
+- ✅ **Transparence** : Documentation des écarts et justifications
+
+**Pour l'étudiant (moi) :**
+- 📝 Liste de vérification (checklist) complète
+- 🔍 Auto-évaluation structurée
+- 📊 Vue d'ensemble des accomplissements
+- 💡 Identification des points forts et limitations
+
+#### 📂 Place dans le Projet
+
+```
+TP_ML_yann_11122025/
+│
+├── README.md                  # Documentation utilisateur principale
+├── VERIFICATION_TP.md         # ⭐ AUDIT QUALITÉ & CONFORMITÉ
+├── TP_Supervise_Arbre.ipynb   # Partie 1 (référencé dans audit)
+├── TP_Partie2_Fairness.ipynb  # Partie 2 (référencé dans audit)
+└── generate_dataset.py        # Script (documenté dans audit)
+```
+
+**Rôle du document :**
+- **Pont entre consignes et réalisation** : Cartographie complète TP → Implémentation
+- **Documentation qualité** : Preuve du respect des standards académiques
+- **Justification des choix** : Explique l'adaptation Dataiku → Python
+
+#### 🔍 Contenu du Document d'Audit
+
+| Section | Utilité |
+|---------|---------|
+| Tableau de correspondance | Vue macro : Sections couvertes |
+| Étape par étape (Section 4) | Vérification point par point des 4 étapes du TP |
+| Sous-sections (Section 3) | Audit des 3 composantes ML Responsable |
+| Éléments au-delà du TP | Valorisation des bonus apportés |
+| Note estimée | Auto-évaluation objective |
+
+#### 💼 Usage Recommandé
+
+**Lors de l'évaluation :**
+1. L'évaluateur ouvre `VERIFICATION_TP.md`
+2. Il vérifie chaque ✅ avec les numéros de cellules
+3. Il peut naviguer directement vers les preuves
+4. Il constate la couverture complète du TP
+
+**Lors d'une soutenance :**
+- Référence pour répondre à "Avez-vous fait X ?"
+- Justification des adaptations Dataiku → Python
+- Preuve de la démarche qualité appliquée
+
+---
+
+## �🛠️ Installation & Utilisation
 
 ### Prérequis
 - Python 3.8+
@@ -336,8 +398,9 @@ jupyter notebook TP_Partie2_Fairness.ipynb
 **Wilfried LEROULIER**  
 Étudiant en IA  
 📧 Contact : mistwil777 
-📧 Mail : wilfried.leroulier@ecoles-epsi.net
 
+📧 Mail : wilfried.leroulier@ecoles-epsi.net
+ ---
 **Note :** Ce projet est réalisé dans un cadre pédagogique. Les données sont synthétiques et ne reflètent aucune situation réelle. L'objectif est d'apprendre les techniques d'audit de fairness dans un environnement contrôlé.
 
 ---
@@ -347,7 +410,25 @@ jupyter notebook TP_Partie2_Fairness.ipynb
 Ce projet est réalisé dans un cadre académique. Le code est mis à disposition à des fins éducatives.
 
 ---
+## 📁 Structure Documentaire du Projet
 
+### Fichiers Principaux
+
+| Fichier | Type | Rôle | Audience |
+|---------|------|------|----------|
+| `README.md` | Documentation | Vue d'ensemble, guide utilisateur | Tous |
+| `VERIFICATION_TP.md` | Audit Qualité | Conformité au TP, traçabilité | Évaluateurs |
+| `TP_Supervise_Arbre.ipynb` | Code | Partie 1 - Classification | Technique |
+| `TP_Partie2_Fairness.ipynb` | Code | Partie 2 - Fairness | Technique |
+| `generate_dataset.py` | Script | Génération données synthétiques | Technique |
+| `requirements.txt` | Config | Dépendances Python | Environnement |
+
+**Recommandation de lecture :**
+1. **README.md** → Comprendre le projet
+2. **VERIFICATION_TP.md** → Vérifier la conformité
+3. **Notebooks** → Voir l'implémentation
+
+---
 ## 🙏 Remerciements
 
 - Enseignant du cours de Machine Learning : Yann Causeur
